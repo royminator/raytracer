@@ -24,8 +24,6 @@ source-repository head
   location: https://github.com/githubuser/raytracer
 
 library
-  exposed-modules:
-      Lib
   other-modules:
       Paths_raytracer
   autogen-modules:
