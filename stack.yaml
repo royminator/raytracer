@@ -17,8 +17,9 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver:
-  compiler: ghc-9.4.7
+resolver: lts-21.12
+compiler: ghc-9.4.7
+compiler-check: match-exact
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
