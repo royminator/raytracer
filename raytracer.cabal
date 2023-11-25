@@ -25,7 +25,7 @@ source-repository head
 
 library
   exposed-modules:
-      Domain
+      Math
   other-modules:
       Paths_raytracer
   autogen-modules:
@@ -55,7 +55,7 @@ test-suite raytracer-test
   type: exitcode-stdio-1.0
   main-is: Tests.hs
   other-modules:
-      DomainTests
+      MathTests
       Paths_raytracer
   autogen-modules:
       Paths_raytracer

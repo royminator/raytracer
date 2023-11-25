@@ -1,5 +1,5 @@
 import Test.Tasty
-import DomainTests (domainTests)
+import MathTests (mathTests)
 
 main :: IO ()
-main = defaultMain domainTests
+main = defaultMain mathTests
