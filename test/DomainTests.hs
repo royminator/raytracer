@@ -15,14 +15,8 @@ domainTests =
 
 pointWShouldBe1 :: TestTree
 pointWShouldBe1 =
-  testCase "point w = 0" $ do
-    let expected = V4 1 2 3 1
-    let actual = point 1 2 3
-    expected @?= actual
+  testCase "point w = 1" $ V4 1 2 3 1 @?= point 1 2 3
 
 vectorWShouldBe0 :: TestTree
 vectorWShouldBe0 =
-  testCase "vector w = 0" $ do
-    let expected = V4 1 2 3 0
-    let actual = vector 1 2 3
-    expected @?= actual
+  testCase "vector w = 0" $ V4 1 2 3 0 @?= vector 1 2 3
