@@ -8,3 +8,8 @@ point x y z = V4 x y z 1
 
 vector :: Float -> Float -> Float -> V4
 vector x y z = V4 x y z 0
+
+(~=) :: Float -> Float -> Bool
+(~=) a b = abs (a - b) < epsilon
+  where
+    epsilon = 1e-5
